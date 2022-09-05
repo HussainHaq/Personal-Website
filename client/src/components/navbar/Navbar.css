@@ -1,0 +1,69 @@
+header{
+    background-color:#2d2d52;
+    position: relative;
+    top: 0px;
+    height: 80px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-logo h1{
+    position: relative;
+    top: 10px;
+    color: #ababab;
+    font-family: 'Silkscreen';
+}
+
+.links_ ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+}
+
+.links_ ul li a{
+    color: #ababab;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.links_ ul li button{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 20px;   
+}
+
+/*      Responsive      */
+.nav-container .icon{
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px){    
+    .nav-container .icon{
+        display: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .links_{
+        display: none;
+    }
+    
+    .responsive ul{
+        display: block;
+        text-align: left;
+    }
+}
+
