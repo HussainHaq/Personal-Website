@@ -1,0 +1,2 @@
+# Personal-Website
+This is a repository of my personal website that I built with react.js. Most of the source code files will be listed here along with the front-end css code. Again this is public and I don't mind if anyone wants to use this for their own projects. This repository will also contain the back-end files or the "server" files. My whole website is broken down into two separate files Client and Server. The Client serves the front part of the website which what user's will see and Server will contain the database and Node.js code. 
