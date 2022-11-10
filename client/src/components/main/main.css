@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kanit:wght@500&family=Raleway:wght@200;300&family=Silkscreen&display=swap');
+
+.main_section{
+    padding-top: 80px;
+}
+
+.hero .title{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.hero .title h1{
+    color: #ddd;
+    font-size: 28px;
+    position: relative;
+    top: 20px;
+}
+
+.title div{
+    position: relative;
+    top:21px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    left:10px;
+}
+
+.title .typewriter{
+    position: relative;
+    bottom: 20px;
+}
+
+.main_content{
+    padding: 20px;
+    background-color: #0d0b1a;
+    margin: 0 auto;
+}
+
+.blogs_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog_details{
+    background-color: #3a3a3a;
+    padding: 20px 20px;
+    border-radius: 15px;
+    height: fit-content;
+    width: 300px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.main_itms{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.blog_details h3{
+    color: #fff;
+}
+
+.blog_details p{
+    color: #ddd;
+}
+
+.blog_details img{
+    width: fit-content;
+    height: 100px;
+}
+
+@media screen and (max-width: 960px){
+    .hero .title h1{
+        color: #ddd;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .title div{
+        position: relative;
+        top:20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        left:8px;
+    }
+
+    .blogs_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog_details{
+        border: 2px solid #fff;
+        background-color: #3a3a3a;
+        padding: 20px 20px;
+        border-radius: 15px;
+        height: fit-content;
+        width: fit-content;
+        justify-content: center;
+        margin: 20px 20px;
+    }   
+}
+
+/*
+                --- Loader ---
+*/
+.spinner-container{
+    justify-content: center;
+    align-items: center;
+    width: auto;  
+    height: 900px;
+    margin: auto;
+}
+
+.loading-spinner{
+    position: relative;
+    top: 300px;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #067eff; /* Light grey */
+    border-top: 10px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+}
+
+@media screen and (max-width: 760px) {
+    
+.spinner-container{
+    justify-content: center;
+    align-items: center;
+    width: auto;    
+    height: 500px;
+}
+
+}
